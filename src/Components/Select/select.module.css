@@ -1,0 +1,11 @@
+.titleDiv {
+    background-color: rgba(198,198,198, 0.5);
+    width: 100px;
+    border-radius: 3px;
+}
+
+
+.items li {
+    color: #6363ef;
+    list-style-type: none;
+}
