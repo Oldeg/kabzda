@@ -1,11 +1,14 @@
-.titleDiv {
-    background-color: rgba(198,198,198, 0.5);
-    width: 100px;
-    border-radius: 3px;
+.select span.main{
+    border: 1px solid black
+}
+.items {
+    position: absolute;
+    border: 1px solid black;
+    padding: 5px;
+
+}
+.item.selected  {
+    background-color: aquamarine;
+    color: white;
 }
 
-
-.items li {
-    color: #6363ef;
-    list-style-type: none;
-}
