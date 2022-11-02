@@ -1,13 +1,13 @@
-import React, {useState} from 'react';
+import React, { useState} from 'react';
 
 
 export default {
     title: 'React.memo demo'
 }
-const NewMessageCounter = (props: {count:number}) => {
+export const NewMessageCounter = (props: {count:number}) => {
     return <div>{props.count}</div>
 }
-type UsersType = {
+export type UsersType = {
     users: Array<string>
 
 }
@@ -30,3 +30,6 @@ export const Example1 = () => {
         <Users users={users}  />
     </div>
 }
+
+
+
