@@ -9,7 +9,7 @@ const initialValue = () => {
     return 1
 }
 
-export const LikeUseCallback= () => {
+export const UseState = () => {
     console.log('useState')
     const [counter, setCounter] = useState(initialValue)
 
